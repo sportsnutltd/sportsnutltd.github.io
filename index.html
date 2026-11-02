@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1F2A44">
+<link rel="icon" type="image/png" href="/swim-times/favicon.png">
+<title>Sports Nut Apps</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #F4F6FA; color: #1F2A44; }
+  header { background: #1F2A44; color: #fff; padding: 22px 16px; text-align: center; }
+  header h1 { margin: 0; font-size: 24px; }
+  header p { margin: 6px 0 0; font-size: 14px; opacity: .85; }
+  main { max-width: 760px; margin: 0 auto; padding: 20px 16px 40px; }
+  .help { background: #E3ECFA; border-radius: 12px; padding: 14px 16px; font-size: 15px; line-height: 1.5; margin-bottom: 20px; }
+  .help b { white-space: nowrap; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+  a.app { display: flex; align-items: center; gap: 14px; background: #fff; border-radius: 16px; padding: 14px;
+          text-decoration: none; color: inherit; box-shadow: 0 1px 4px rgba(31,42,68,.12); }
+  a.app:active { transform: scale(.98); }
+  a.app img { width: 64px; height: 64px; border-radius: 14px; flex: none; background: #1F2A44; }
+  .name { font-size: 18px; font-weight: bold; }
+  .desc { font-size: 13px; color: #5B6478; margin-top: 3px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Sports Nut Apps</h1>
+  <p>Tap an app to open it</p>
+</header>
+<main>
+  <div class="help">
+    <b>To add an app to this tablet:</b> tap it below, then in Chrome tap
+    <b>&#8942;</b> &rarr; <b>Install and create shortcut</b> &rarr; <b>Install</b>.
+    Then press the back button to come back here for the next one.
+  </div>
+  <div class="grid">
+    <a class="app" href="/swim-times/">
+      <img src="/swim-times/icon-192.png" alt="">
+      <div><div class="name">Swim Times</div><div class="desc">Time swimmers and see their times</div></div>
+    </a>
+    <a class="app" href="/my-classes/">
+      <img src="/my-classes/icon-192.png" alt="">
+      <div><div class="name">My Classes</div><div class="desc">Your swimmers&rsquo; progress</div></div>
+    </a>
+    <a class="app" href="/cover-notes/">
+      <img src="/cover-notes/cover-icon-192.png" alt="">
+      <div><div class="name">Cover Notes</div><div class="desc">Notes for cover teachers</div></div>
+    </a>
+    <a class="app" href="/taster-notes/">
+      <img src="/taster-notes/icon-192.png" alt="">
+      <div><div class="name">Taster Notes</div><div class="desc">Record taster sessions</div></div>
+    </a>
+    <a class="app" href="/my-shifts/">
+      <img src="/my-shifts/icon-192.png" alt="">
+      <div><div class="name">My Shifts</div><div class="desc">Your shifts, leave and cover</div></div>
+    </a>
+  </div>
+</main>
+</body>
+</html>
 
